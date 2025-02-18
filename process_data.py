@@ -19,7 +19,7 @@ import torch.distributed as dist
 import pickle
 import logging
 from io import BytesIO
-import oss2 as oss
+# import oss2 as oss
 import os.path as osp
 
 import sys
