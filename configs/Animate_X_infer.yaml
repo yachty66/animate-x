@@ -17,16 +17,12 @@ test_list_path: [
 #   [4, "data/images/7.jpeg", "data/saved_pose/ubc","data/saved_frames/ubc","data/saved_pkl/ubc.pkl", 14],
 ]
 
-
 log_dir: 'results' # save dir
 
 test_model:  checkpoints/animate-x_ckpt.pth  
 partial_keys: [
                     ['image','local_image', 'dwpose','pose_embeddings'], 
                 ]
-
-
-
 
 # default settings
 TASK_TYPE: inference_animate_x_entrance
